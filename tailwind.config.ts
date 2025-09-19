@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        'romantic': ['Dancing Script', 'cursive'],
+        'kawaii': ['Comfortaa', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -47,6 +51,11 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Magical Love Colors
+        'love-pink': "hsl(var(--love-pink))",
+        'love-purple': "hsl(var(--love-purple))",
+        'love-blue': "hsl(var(--love-blue))",
+        'magic-sparkle': "hsl(var(--magic-sparkle))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
